@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100%;
+    height: 730px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.box{
+    width: 600px;
+    height: 100vh;
+    background-color: gold;
+    opacity: 0.7;
+    clip-path: polygon(36% 0, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:end
+}
+h1{
+    font-size: 25px;
+    padding: 0px 5px;
+}
+i{
+    font-size: 25px;
+    padding: 0px 10px;
+}
+.icon{
+    width: 400px;
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.text{
+    width: 400px;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 30px;
+}
+#h1{
+    font-size: 60px;
+    padding: 0px 20px;
+}
+#h2{
+    font-size: 30px;
+    text-align: end;
+    width: 300px;
+    padding: 0px 20px;
+}
+#eye{
+    font-size: 17px;
+    padding: 0px 20px;
+}
+h3{
+    font-size: 17px;
+    text-align: end;
+}
+.eye{
+    width: 200px;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.clip-path{
+   
+    background-color: white;
+    padding: 20px;
+    border: 4px solid gray;
+}
+#header{
+    width: 100%;
+    height: 20vh;
+    border: 4px solid green;
+
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    border: 5px solid red;
+}
+#article{
+    width: 80%;
+    height: 55vh;
+    border: 5px solid green;
+    /* display: flex; */
+
+}
+#main{
+    /* display: flex; */
+}
+#article #section{
+    width: 100%;
+    height: 20%;
+    border: 5px solid pink;
+}
+#article #footer{
+    width: 100%;
+    height: 10%;
+}
+#div{
+    width: 10%;
+    height: 45vh;
+    border: 5px solid orange;
+
+}
+#div #aside{
+    width: 90%;
+    height: 40%;
+    border: 5px solid  blue;
+
+}
+#footer{
+    width: 100%;
+    height: 20vh;
+    border: 5px solid gold;
+}
+#main3{
+    display: flex;
+}
+#div{
+    width: 30%;
+    height: 55vh;
+    padding-left: 10px;
+    border: 5px solid orange;
+}
+#hotter{
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#h5{
+    padding: 20px 10px;;
+} 
+.control{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/photo_2024-05-10_22-33-06.jpg);
+    gap: 30px;
+}
+button{
+       background: transparent;
+    padding: 10px 20px;
+    border: 2px solid rgb(245, 238, 238);
+    display: flex;
+    color: white;
+}
+#h56{
+    color: white;
+    display: flex;
+    width: 450px;
+    text-align: center;
+}
+
+
+
+
+
+
+.menyu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    background-color: rgb(205, 172, 106);
+}
+
+.title{
+    width: 900px;
+    height:600px;
+    background-color: rgb(148, 63, 63);
+    display: flex;
+    justify-content: center;
+}
+.imgs{
+    width:400px ;
+    height: 100%;
+    background-color: rgb(139, 130, 114);
+    /* display: flex; */
+    background-image: url(../img/rok.webp;)
+    background-size: cover;
+}
+
+.menyu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    background-color: rgb(205, 172, 106);
+}
+.title{
+    width: 900px;
+    height:600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.imgs{
+    width:400px ;
+    height: 100%;
+    background-color: rgb(139, 130, 114);
+    /* display: flex; */
+    background-image: url(../img/rok.webp);
+    background-size: cover;
+}
+.text{
+    width: 500px;
+    height: 100%;
+    padding: 40px 40px;
+    /* background-color: white; */
+    /* display: flex; */
+}
+
+#h22{
+    padding: 50px ;
+    /* text-align: center; */
+    display: block;
+    color: white;
+}
+#h23{
+    padding: 0px 50px;
+    color: white;
+}
+#h24{
+    color: white;
+    text-align: end;
+    padding: 300px 70px;
+}
+i{
+    padding: 0px 90px;
+    
+}
+.icons{
+    display: flex;
+}
+
+
+
